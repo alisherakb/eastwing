@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@font-face {
+  font-family: 'Graphik-Bold';
+  src: url('/src/assets/fonts/Graphik-Bold.ttf');
+}
+@font-face {
+  font-family: 'Graphik-SemiBold';
+  src: url('/src/assets/fonts/Graphik-Semibold.ttf');
+}
+@font-face {
+  font-family: 'Graphik-Medium';
+  src: url('/src/assets/fonts/Graphik-Medium.ttf');
+}
+@font-face {
+  font-family: 'Graphik-Regular';
+  src: url('/src/assets/fonts/Graphik-Regular.ttf');
+}
+@font-face {
+  font-family: 'Graphik-Light';
+  src: url('/src/assets/fonts/Graphik-Light.ttf');
+}
+@font-face {
+  font-family: 'Gilroy-SemiBold';
+  src: url('/src/assets/fonts/Gilroy-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: url('/src/assets/fonts/Gilroy-Regular.ttf');
+}
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url('/src/assets/fonts/Gilroy-Regular.ttf');
+}
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url('/src/assets/fonts/Gilroy-Medium.ttf');
+}
+@font-face {
+  font-family: 'Copperplate-Bold';
+  src: url('/src/assets/fonts/Copperplate-Bold.ttf');
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 100%;
+  }
+}

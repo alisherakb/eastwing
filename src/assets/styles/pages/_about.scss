@@ -1,0 +1,64 @@
+.About {
+  &-header {
+    z-index: 3;
+    height: 180px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background-color: #0e1b2c;
+    &-content {
+      z-index: 3;
+      padding-left: 80px;
+      span {
+        font-size: 48px;
+        color: white;
+        font-family: 'Graphik-Semibold';
+        text-align: center;
+      }
+      div {
+        width: 120px;
+        height: 12px;
+        background-color: #3283e6;
+      }
+    }
+    @media (max-width: 992px) {
+      justify-content: center;
+      height: 140px;
+      &-content {
+        padding-left: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        span {
+          font-size: 32px;
+          color: white;
+          text-align: center;
+        }
+        div {
+          width: 120px;
+          height: 8px;
+          background-color: #3283e6;
+        }
+      }
+    }
+  }
+  &-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    // z-index: 1;
+    @media (max-width: 992px) {
+      height: 100vh;
+    }
+  }
+  &-overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(50, 126, 230, 0.254);
+    width: 100%;
+    height: 100%;
+  }
+}
