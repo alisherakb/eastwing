@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa791628c73fb6135f59fe8db92c362e",
+    "revision": "dba059dc636e87ab8f3ecd563d8d6741",
     "url": "/eastwing/index.html"
   },
   {
-    "revision": "ab9d61edc98821e9c244",
+    "revision": "fc7dc7a940a9d7d81f46",
     "url": "/eastwing/static/css/2.6e1d1121.chunk.css"
   },
   {
-    "revision": "349ab86649e6b04d221e",
-    "url": "/eastwing/static/css/main.84bd1050.chunk.css"
+    "revision": "5b6775f60c60b5ae9fca",
+    "url": "/eastwing/static/css/main.c47f7a3b.chunk.css"
   },
   {
-    "revision": "ab9d61edc98821e9c244",
-    "url": "/eastwing/static/js/2.2d83f6c3.chunk.js"
+    "revision": "fc7dc7a940a9d7d81f46",
+    "url": "/eastwing/static/js/2.9b8a1f85.chunk.js"
   },
   {
-    "revision": "349ab86649e6b04d221e",
-    "url": "/eastwing/static/js/main.debd91fa.chunk.js"
+    "revision": "5b6775f60c60b5ae9fca",
+    "url": "/eastwing/static/js/main.af4f7fa9.chunk.js"
   },
   {
     "revision": "ccb1c9e8a262fa524884",
@@ -46,10 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "64343df95129386ff13817262bb08082",
     "url": "/eastwing/static/media/ground_handling.64343df9.jpeg"
-  },
-  {
-    "revision": "68527d84bf780063866297baf609d628",
-    "url": "/eastwing/static/media/logo.68527d84.svg"
   },
   {
     "revision": "15d785dffcb374b6ae0bcc1987aa11f7",
