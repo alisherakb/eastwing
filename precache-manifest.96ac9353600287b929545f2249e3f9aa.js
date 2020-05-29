@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2df613497168fa3317c93c54d7caff9",
+    "revision": "6b51bf7ca50474be2d9cf3d5feec388c",
     "url": "/eastwing/index.html"
   },
   {
-    "revision": "d7e0700306e6e84555e3",
+    "revision": "f9a7f9b3e1005fa970de",
     "url": "/eastwing/static/css/2.6e1d1121.chunk.css"
   },
   {
-    "revision": "4bc3b88cbb72a99c55f4",
-    "url": "/eastwing/static/css/main.bd8da071.chunk.css"
+    "revision": "05cf54c4eaff0751b10b",
+    "url": "/eastwing/static/css/main.ba087995.chunk.css"
   },
   {
-    "revision": "d7e0700306e6e84555e3",
-    "url": "/eastwing/static/js/2.1aa63d08.chunk.js"
+    "revision": "f9a7f9b3e1005fa970de",
+    "url": "/eastwing/static/js/2.b90854d1.chunk.js"
   },
   {
-    "revision": "4bc3b88cbb72a99c55f4",
-    "url": "/eastwing/static/js/main.4a78eb53.chunk.js"
+    "revision": "05cf54c4eaff0751b10b",
+    "url": "/eastwing/static/js/main.0799cf28.chunk.js"
   },
   {
     "revision": "ccb1c9e8a262fa524884",
