@@ -1,0 +1,46 @@
+.Partners {
+  &-header {
+    z-index: 3;
+    height: 240px;
+    margin-top: 40px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    span {
+      font-size: 38px;
+      width: 500px;
+      text-align: left;
+      color: white;
+      font-family: 'GraphikSemibold';
+      z-index: 3;
+      padding-left: 80px;
+    }
+    img {
+      position: absolute;
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      z-index: 1;
+      background-color: #3283e6;
+    }
+    div {
+      position: absolute;
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      z-index: 2;
+      opacity: 0.3;
+      background-color: #204f8b;
+    }
+    @media (max-width: 992px) {
+      justify-content: center;
+      height: 240px;
+      span {
+        font-size: 32px;
+        color: white;
+        text-align: center;
+        padding-left: 0px;
+      }
+    }
+  }
+}

@@ -9,13 +9,17 @@ import Services from './components/Services';
 import Partners from './components/Partners';
 import Careers from './components/Careers';
 import Contacts from './components/Contacts';
+import Footer from './components/Footer';
 
 import 'aos/dist/aos.css';
 import './assets/styles/main.scss';
 
 const App = () => {
   useEffect(() => {
-    AOS.init({ once: true });
+    AOS.init({
+      once: true,
+      disable: 'phone',
+    });
 
     let navElement = $('nav');
 
@@ -38,9 +42,10 @@ const App = () => {
         <Home />
         <About />
         <Services />
-        {/* <Partners />
+        <Partners />
         <Careers />
-        <Contacts /> */}
+        <Contacts />
+        <Footer />
       </main>
     </Fragment>
   );

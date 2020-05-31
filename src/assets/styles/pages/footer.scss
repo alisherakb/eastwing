@@ -1,0 +1,80 @@
+.Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px 80px;
+  background-color: black;
+  &-logo {
+    img {
+      width: 64px;
+      height: 64px;
+      object-fit: contain;
+    }
+    span {
+      margin-left: 8px;
+      font-size: 24px;
+      color: white;
+      font-family: 'CopperplateBold';
+    }
+  }
+  &-links {
+    a {
+      font-family: 'GilroyRegular';
+      font-size: 14px;
+      color: white;
+      padding: 0px 24px;
+    }
+  }
+  &-social {
+    display: flex;
+    flex-direction: row;
+    img {
+      width: 16px;
+      height: 16px;
+    }
+    button {
+      border-radius: 50px;
+      width: 40px;
+      height: 40px;
+      margin-right: 20px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 0px solid;
+      outline: none;
+    }
+    button:hover {
+      background-color: black;
+    }
+    button:active {
+      outline: none;
+    }
+  }
+  @media (max-width: 992px) {
+    flex-direction: column;
+    width: 100%;
+    padding: 8px 16px;
+    &-logo {
+      img {
+        width: 56px;
+        height: 56px;
+        object-fit: contain;
+      }
+      span {
+        margin-left: 8px;
+        font-size: 20px;
+      }
+    }
+    &-links {
+      display: none;
+    }
+    &-social {
+      button {
+        margin: 16px 8px;
+      }
+    }
+  }
+}

@@ -1,11 +1,15 @@
 @import 'abstracts/variables';
 @import 'abstracts/functions';
 @import 'abstracts/mixins';
-@import 'base/typography';
 @import 'pages/header';
 @import 'pages/home';
 @import 'pages/about';
 @import 'pages/services';
+@import 'pages/partners.scss';
+@import 'pages/careers.scss';
+@import 'pages/contacts.scss';
+@import 'pages/footer.scss';
+@import './fonts';
 
 section {
   + section {

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="41px" viewBox="0 0 30 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Copy-6" transform="translate(-1129.000000, -3806.000000)" fill="#3283E6" fill-rule="nonzero">
+            <g id="Group-9" transform="translate(71.000000, 3791.000000)">
+                <g id="Group-8">
+                    <g id="Group-7" transform="translate(874.000000, 0.000000)">
+                        <g id="Group-6">
+                            <g id="file-solid" transform="translate(184.000000, 15.000000)">
+                                <path d="M17.5,10.890625 L17.5,-3.55271368e-15 L1.875,-3.55271368e-15 C0.8359375,-3.55271368e-15 0,0.856835937 0,1.921875 L0,39.078125 C0,40.1431641 0.8359375,41 1.875,41 L28.125,41 C29.1640625,41 30,40.1431641 30,39.078125 L30,12.8125 L19.375,12.8125 C18.34375,12.8125 17.5,11.9476562 17.5,10.890625 Z M30,9.76152344 L30,10.25 L20,10.25 L20,-3.55271368e-15 L20.4765625,-3.55271368e-15 C20.9765625,-3.55271368e-15 21.453125,0.200195312 21.8046875,0.560546875 L29.453125,8.40820312 C29.8046875,8.76855469 30,9.25703125 30,9.76152344 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

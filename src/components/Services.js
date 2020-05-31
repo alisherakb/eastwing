@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import styled from 'styled-components';
-import Demo from './Icons/Demo';
 
 const Section = styled.section`
   flex-direction: column;
@@ -55,7 +54,7 @@ const BoxTitle = styled.h4`
   padding-left: 30px;
   margin: 0px;
   margin-block-end: 0px;
-  font-family: 'Graphik-Medium';
+  font-family: 'GraphikMedium';
   letter-spacing: 0.5px;
   margin-block-start: 0px;
   > div {
@@ -76,9 +75,9 @@ const Text = styled.p`
   padding-bottom: 24px;
   line-height: 1.58;
   color: #334357;
-  opacity: 0.8
+  opacity: 0.8;
   margin-bottom: 0;
-  font-family: 'Graphik-Light';
+  font-family: 'GraphikLight';
   max-width: 350px;
   @media (max-width: 992px) {
     max-width: 600px;
@@ -89,8 +88,8 @@ const Services = () => {
   const width = window.innerWidth;
   return (
     <Section id="services">
-      <div class="Services-header">
-        <div class="Services-header-content">
+      <div className="Services-header">
+        <div className="Services-header-content">
           <span>Services</span>
           <div />
         </div>

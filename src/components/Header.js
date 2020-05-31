@@ -27,8 +27,8 @@ const Header = () => {
             onClick={scrollTo('home')}
             aria-label="Logo"
           >
-            <div className="navbar-logo">
-              <img src={require('../../src/assets/img/logo.svg')} />
+            <div className="navbar-logoContainer">
+              <div className="navbar-logoContainer-logo" />
               <span>eastwing</span>
             </div>
           </Navbar.Brand>

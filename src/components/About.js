@@ -52,7 +52,7 @@ const AboutTitle = styled.h1`
   margin-top: 0px;
   font-size: 16px;
   line-height: 1.5;
-  font-family: 'Gilroy-Medium';
+  font-family: 'GilroyMedium';
   margin-bottom: 23px;
 
   @media (min-width: 992px) {
@@ -73,7 +73,7 @@ const SubTitle = styled.h5`
   text-align: center;
   color: #ffffff;
   z-index: 5;
-  font-family: 'Gilroy-Regular';
+  font-family: 'GilroyRegular';
   @media (min-width: 992px) {
     max-width: 700px;
     margin-left: auto;

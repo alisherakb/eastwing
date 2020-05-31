@@ -61,11 +61,13 @@ const HomeTitle = styled.h1`
   z-index: 5;
   position: relative;
   line-height: 1.55;
+  top: 56px;
   margin-bottom: 23px;
-  font-family: 'Gilroy-SemiBold';
+  font-family: 'GilroySemiBold';
 
   @media (min-width: 992px) {
     font-size: 56px;
+    top: 0px;
     z-index: 5;
     line-height: 1.39;
     max-width: 1100px;
